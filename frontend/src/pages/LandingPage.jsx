@@ -6,7 +6,7 @@ import background from '../assets/background.jpg';
 import 'animate.css';
 
 const LandingPage = () => (
-  <div className="min-h-screen bg-gray-800 overflow-hidden">
+  <div className="land min-h-screen bg-gray-800 overflow-hidden">
     <Header />
     
     {/* Hero Section */}
@@ -40,23 +40,23 @@ const LandingPage = () => (
     <div id="features" className="container mx-auto py-12 px-6 bg-slate-700">
       <h2 className="text-4xl font-bold text-center mb-8">Key Features</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn">
-          <h3 className="text-xl font-semibold mb-3">User-Friendly Registration</h3>
+        <div className="bg-gray-800 text-white p-6 rounded shadow border-2 border-gray-900 hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn">
+          <h3 className="text-xl font-bold mb-3">User-Friendly Registration</h3>
           <p>Easy registration for employees to create and update their profiles, making onboarding seamless.</p>
           <ul className="list-disc pl-5 mt-2">
             <li>Quick profile creation</li>
             <li>Vehicle and driver verification</li>
           </ul>
         </div>
-        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn animate__delay-1s">
-          <h3 className="text-xl font-semibold mb-3">Route Management</h3>
+        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform border-2 hover:scale-105  border-gray-900 animate__animated animate__fadeIn animate__delay-1s">
+          <h3 className="text-xl font-semibold mb-3 text-slate-300">Route Management</h3>
           <p>View available routes and join carpool options tailored to your needs with an interactive interface.</p>
           <ul className="list-disc pl-5 mt-2">
             <li>Route suggestions based on preferences</li>
             <li>Interactive route visualization with maps</li>
           </ul>
         </div>
-        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
+        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform  border-2 border-gray-900 hover:scale-105 animate__animated animate__fadeIn animate__delay-2s">
           <h3 className="text-xl font-semibold mb-3">Real-Time Notifications</h3>
           <p>Receive SMS alerts and app notifications to stay informed about schedule changes and route updates.</p>
           <ul className="list-disc pl-5 mt-2">
@@ -64,7 +64,7 @@ const LandingPage = () => (
             <li>Email notifications for registration and updates</li>
           </ul>
         </div>
-        <div className="bg-gray-800  text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
+        <div className="bg-gray-800  text-white p-6 rounded shadow hover:shadow-lg transition transform border-2 border-gray-900 hover:scale-105 animate__animated animate__fadeIn animate__delay-3s">
           <h3 className="text-xl font-semibold mb-3">Advanced Search & Filters</h3>
           <p>Search and filter available routes based on various criteria such as location, date, and time.</p>
           <ul className="list-disc pl-5 mt-2">
@@ -72,7 +72,7 @@ const LandingPage = () => (
             <li>Search for specific carpool preferences</li>
           </ul>
         </div>
-        <div className="bg-gray-800  text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn animate__delay-4s">
+        <div className="bg-gray-800  text-white p-6 rounded shadow hover:shadow-lg transition transform border-2 border-gray-900 hover:scale-105 animate__animated animate__fadeIn animate__delay-4s">
           <h3 className="text-xl font-semibold mb-3">Complaint and Suggestion Handling</h3>
           <p>Submit and track complaints or suggestions for improving the carpooling experience.</p>
           <ul className="list-disc pl-5 mt-2">
@@ -80,7 +80,7 @@ const LandingPage = () => (
             <li>Admin responses and issue tracking</li>
           </ul>
         </div>
-        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform hover:scale-105 animate__animated animate__fadeIn animate__delay-5s">
+        <div className="bg-gray-800 text-white p-6 rounded shadow hover:shadow-lg transition transform border-2 border-gray-900 hover:scale-105 animate__animated animate__fadeIn animate__delay-5s">
           <h3 className="text-xl font-semibold mb-3">Comprehensive Reporting</h3>
           <p>Admins can generate detailed reports to monitor carpooling trends and optimize routes.</p>
           <ul className="list-disc pl-5 mt-2">
